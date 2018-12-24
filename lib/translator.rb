@@ -17,7 +17,7 @@ def get_japanese_emoticon(file_path, emoticon)
   if answer
     answer
   else
-    "Sorry, invalid emoticon"
+    "Sorry, that emoticon was not found"
   end
 end
 
