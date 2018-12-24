@@ -12,7 +12,13 @@ YAML.load_file(file_path).each do |meaning, array|
 end
 
 def get_japanese_emoticon(file_path, emoticon)
-  load_library(file_path)
+  lib = load_library(file_path)
+  answer = lib[get_emoticon][emoticon]
+  if answer
+    answer
+  else
+    "Sorry, invalid emoticon"
+  end
 end
 
 def get_english_meaning
