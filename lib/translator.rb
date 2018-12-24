@@ -1,7 +1,7 @@
 
-require 'yaml'
+require 'emoticons.yml'
 
-def load_library
+def load_library(file_path)
 
 end
 
@@ -11,5 +11,4 @@ end
 
 def get_english_meaning
   # code goes here
-end
 end
