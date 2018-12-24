@@ -1,5 +1,5 @@
 
-require 'emoticons.yml'
+require 'yaml'
 
 def load_library(file_path)
 lib = {"get_translation" => {}, "get_emoticon" => {} }
