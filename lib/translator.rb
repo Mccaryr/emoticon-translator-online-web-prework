@@ -6,7 +6,7 @@ lib = {"get_translation" => {}, "get_emoticon" => {} }
 YAML.load_file(file_path).each do |meaning, array|
   english, japanese = array
   lib["get_emoticon"][english] = japanese
-  lib["get_translationi"][japanese] = meaning
+  lib["get_translation"][japanese] = meaning
   end
   lib
 end
